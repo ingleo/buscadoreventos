@@ -10,7 +10,7 @@ const Evento = ({ evento }) => {
   } else {
     text = null;
   }
-  
+
   return (
     <div>
       <div className="uk-card uk-card-default">
@@ -24,7 +24,7 @@ const Evento = ({ evento }) => {
         </div>
 
         <div className="uk-card-footer">
-          <a href={evento.url} className="uk-button uk-button-secondary">
+          <a href={evento.url} target="_blank" rel="noopener noreferrer" className="uk-button uk-button-secondary">
             Más Info
           </a>
         </div>
